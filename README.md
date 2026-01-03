@@ -23,6 +23,33 @@ The main features include:
    - Azure services ensure that the system can scale to handle increasing data and user load, providing high reliability and availability.
 
 This implementation ensures that sensitive patient data is secure, accessible only to authorized personnel, and stored in a reliable and scalable cloud environment.
+## Azure SQL Database Design (Conceptual)
+
+This project demonstrates the design of a secure patient data storage system
+using Azure SQL Database. Patient details such as Patient ID, name, age,
+diagnosis, and treatment information are stored in structured tables.
+
+Due to the absence of a live Azure subscription, this implementation is
+documented conceptually using sample schema and dummy data.
+No real patient data is used.
+
+## Azure Blob Storage Design (Conceptual)
+
+Azure Blob Storage is used to store medical images such as X-rays, MRI scans,
+and laboratory reports. These images are stored in containers with restricted
+access to ensure data privacy and scalability.
+
+This project explains the Blob Storage usage conceptually without deploying
+actual Azure resources.
+
+## Security Implementation
+
+Role-Based Access Control (RBAC) ensures that only authorized users such as
+doctors and hospital administrators can access medical records.
+Azure Resource Locks are applied to prevent accidental deletion of critical
+resources.
+
+Note: This project is a design and documentation-based implementation.
 
 ## Conclusion
 
