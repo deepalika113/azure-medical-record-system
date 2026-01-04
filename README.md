@@ -23,6 +23,26 @@ The main features include:
    - Azure services ensure that the system can scale to handle increasing data and user load, providing high reliability and availability.
 
 This implementation ensures that sensitive patient data is secure, accessible only to authorized personnel, and stored in a reliable and scalable cloud environment.
+## Azure SQL Database (Conceptual)
+
+The patient records for this project are stored in **Azure SQL Database**.
+The database schema and sample data are stored in the file [`Azure_SQL_Database.sql`](./Azure_SQL_Database.sql).
+
+### Table Structure
+
+- **Patients Table**
+  - PatientID (INT, Primary Key)
+  - PatientName (VARCHAR)
+  - Age (INT)
+  - Gender (VARCHAR)
+  - Diagnosis (VARCHAR)
+  - Treatment (VARCHAR)
+  - DoctorName (VARCHAR)
+  - VisitDate (DATE)
+
+### Sample Data
+
+See `Azure_SQL_Database.sql` file for dummy patient records.
 ## Azure SQL Database Design (Conceptual)
 
 This project demonstrates the design of a secure patient data storage system
