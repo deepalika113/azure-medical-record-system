@@ -1,3 +1,11 @@
+#Azure medical system
+## Objectives
+- Secure and scalable medical record system using Azure
+- Store patient data using Azure SQL Database
+- Store medical images in Azure Blob Storage
+- Implement access control using RBAC
+- Prevent accidental resource deletion using Resource Locks
+- Centralized system for hospitals
 # Implementation Overview
 
 This project is a secure and scalable Medical Record System designed using Microsoft Azure cloud services. The system allows hospitals to manage patient information efficiently while ensuring data security and reliability.
