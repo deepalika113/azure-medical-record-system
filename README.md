@@ -78,6 +78,8 @@ Azure Resource Locks are applied to prevent accidental deletion of critical
 resources.
 
 Note: This project is a design and documentation-based implementation.
+## Screenshots
+(Attached in repository as proof of implementation)
 
 ## Conclusion
 
